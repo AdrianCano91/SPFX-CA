@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://m365x60205448.sharepoint.com/sites/FormacioAdrian/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "32c2411d-ed00-41e5-9178-5fca3aff21b8": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "firstCa": {
+      "pageUrl": "https://m365x60205448.sharepoint.com/sites/FormacioAdrian/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "32c2411d-ed00-41e5-9178-5fca3aff21b8": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

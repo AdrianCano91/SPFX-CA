@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "first-ca",
+    "libraryId": "f024527a-d519-4518-a44e-5e889a2bde66",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "FirstCA",
+    "solutionShortDescription": "FirstCA description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "first-ca-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/firstCa/FirstCaCommandSet.js",
+          "manifest": "./src/extensions/firstCa/FirstCaCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FirstCaCommandSetStrings": "lib/extensions/firstCa/loc/{locale}.js"
+  }
+}
